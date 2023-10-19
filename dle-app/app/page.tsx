@@ -13,7 +13,7 @@ export default function Home() {
         Domaindle
       </h1>
       <h2 className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl xl:text-4xl font-extralight pb-4">
-        the hub that has the collection of all your favorite "Le's"
+        the hub that has the collection of all your favorite &quot;Le&apos;s&quot;
       </h2>
       
       <div className="flex flex-col sm:flex-row gap-4 px-4">
