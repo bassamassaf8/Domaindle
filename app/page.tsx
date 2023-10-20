@@ -50,9 +50,9 @@ export default function Home() {
             title="Mathler"
           />
           <Card
-            href="https://www.mathler.com/"
-            text="Mathler requires you to use math operators to create an equation that equals the given answer."
-            title="Mathler"
+            href="https://contexto.me/"
+            text="Find the secret word. You have unlimited guesses. The words were sorted by AI for word similarity"
+            title="Contexto"
           />
         </div>
       </main>
