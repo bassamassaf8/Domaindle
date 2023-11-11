@@ -1,28 +1,29 @@
 /* Styles for all media queries */
 @media all {
-    .text-3xl {
-      font-size: 1.5rem;
-    }
-    .text-2xl {
-      font-size: 1rem;
-    }
-  
-    .container {
-      width: 100%;
-    }
+  .text-3xl {
+    font-size: 1.5rem;
   }
-  
-  /* Styles specific to laptops (assuming a typical laptop screen width) */
-  @media (min-width: 1024px) and (max-width: 1366px) {
-    .text-3xl {
-      font-size: 2rem;
-    }
-    .text-2xl {
-      font-size: 1.5rem;
-    }
-  
-    .container {
-      width: 100%;
-    }
+  .text-2xl {
+    font-size: 1rem;
   }
-  
+
+  .container {
+    width: 100%;
+  }
+}
+
+/* Styles specific to laptops (assuming a typical laptop screen width) */
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .text-3xl {
+    font-size: 2rem;
+  }
+  .text-2xl {
+    font-size: 1.5rem;
+  }
+
+  .container {
+    width: 100%;
+  }
+}
+
+/* Add any other existing styles or new styles below */
