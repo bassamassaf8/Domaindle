@@ -13,13 +13,13 @@ const Card = ({
   return (
     <div className="min-w-md max-w-md min-h-md max-h-md">
       <div className="mr-4 ml-4 mb-8 relative max-h-md min-h-md max-h-md">
-        <div className="opacity-80 min-w-xs max-w-m max-h-xs p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-4">
+        <div className="opacity-95 min-w-xs max-w-md min-h-md p-7 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-4">
           <Link href={href}>
             <h5 className="opacity-100 text-2xl font-bold tracking-tight text-gray-900 dark:text-white pb-2">
               {title}
             </h5>
           </Link>
-          <p className="pt-2 pb-10 font-normal text-gray-700 dark:text-gray-400 min-w-md max-w-md min-h-md max-h-md">
+          <p className="pt-2 pb-8 font-normal text-gray-700 dark:text-gray-400 min-w-md max-w-md min-h-md max-h-md">
             {text}
           </p>
           <div className="group relative">
@@ -27,9 +27,9 @@ const Card = ({
               <span className="text-white"></span>
               <Link
                 href={href}
-                className="inline-flex items-center px-16 pb-2 py-2 ml-2 mr-2 text-sm font-medium text-white bg-gradient-to-r from-sky-600 to-purple-600 rounded-lg opacity-60 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"
+                className="inline-flex items-center px-16 pb-2 py-2 ml-2 mr-2 text-sm font-medium text-white bg-gradient-to-r from-blue-500  to-purple-600 rounded-lg opacity-60 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"
               >
-                Go!!
+                Go!
                 <svg
                   className="w-3.5 h-3.5 ml-2"
                   aria-hidden="true"
