@@ -73,6 +73,51 @@ export default function Home() {
             title="Polygonle"
           />
         </div>
+        <div className="flex flex-col sm:flex-row gap-4 px-4 max-w-s">
+          <Card
+            href="https://www.nytimes.com/games/connections"
+            text="Find groups of four items that share something in common, match them to find the category."
+            title="Connections"
+          />
+
+          <Card
+            href="https://squabble.me/"
+            text="Multiplayer Wordle-style game where you compete against others to guess the word first."
+            title="Squabble"
+          />
+
+          <Card
+            href="https://worldle.teuteuf.fr/"
+            text="Guess the country based on its shaped outline, distance will determine how close you are."
+            title="Worldle"
+          />
+        </div>
+        <div className="flex flex-col sm:flex-row gap-4 px-4 max-w-s">
+          <Card
+            href="https://food-le.com/"
+            text="Like Wordle but for food. Players will begin the game by attempting to guess the food term six times."
+            title="Foodle"
+          />
+
+          <Card
+            href="https://poeltl.dunk.town/"
+            text="Guess a basketball player. You get eight guesses.  If you get stuck, try enabling silhouette mode!"
+            title="Poeltl"
+          />
+
+          <Card
+            href="https://playfootball.games/football-wordle"
+            text="Guess the past or present footballer in 6 tries. After each guess the tiles change color"
+            title="Football Wordle"
+          />
+        </div>
+        <div className="flex flex-col sm:flex-row gap-4 px-4 max-w-s">
+          <Card
+            href="https://jackli.gg/chessle/"
+            text="Guess the entire opening sequence with chess pieces, for both white and black!"
+            title="Chessle"
+          />
+        </div>
       </main>
     </div>
   );
