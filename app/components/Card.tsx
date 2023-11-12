@@ -13,7 +13,7 @@ const Card = ({
   return (
     <div className="min-w-md max-w-md min-h-md max-h-md">
       <div className="mr-4 ml-4 mb-8 relative max-h-md min-h-md max-h-md">
-        <div className="opacity-95 min-w-xs max-w-md min-h-md p-7 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 mb-4">
+        <div className="opacity-90 min-w-xs max-w-md min-h-md p-7 bg-white border border-gray-200 rounded-lg shadow dark:bg-slate-950 dark:border-gray-700 light:bg-slate-950 light:border-gray-700 light:border-gray-700 mb-4">
           <Link href={href}>
             <h5 className="opacity-100 text-2xl font-bold tracking-tight text-gray-900 dark:text-white pb-2">
               {title}
