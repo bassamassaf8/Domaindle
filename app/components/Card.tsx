@@ -15,7 +15,7 @@ const Card = ({
       <div className="mr-4 ml-4 mb-8 relative max-h-md min-h-md max-h-md">
         <div className="opacity-90 min-w-xs max-w-md min-h-md p-7 border border-gray-700  rounded-2xl shadow bg-slate-950 mb-4">
           <Link href={href}>
-            <h5 className="opacity-100 text-2xl font-bold tracking-tight text-gray-900 dark:text-white pb-2">
+            <h5 className="opacity-100 text-2xl font-bold tracking-tight text-white pb-2">
               {title}
             </h5>
           </Link>
