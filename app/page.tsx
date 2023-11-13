@@ -5,7 +5,7 @@ import "./page.css";
 
 export default function Home() {
   return (
-    <div className="opacity-90 your-element-class">
+    <div className="your-element-class">
       <main className="flex flex-col items-center p-6 sm:p-8 md:p-10 lg:p-12 xl:p-16 2xl:p-20 max-w-screen-2xl">
         <h1 className="text-5xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-extrabold pb-4 mt-[-40px] pt-5 bg-gradient-to-r from-cyan-300 via-purple-600 to-pink-500 text-transparent bg-clip-text animate-gradient ">
           Domaindle
