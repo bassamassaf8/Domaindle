@@ -2,6 +2,7 @@ import React from "react";
 import Card from "./components/Card";
 import Gradient from "./components/Gradient";
 import "./page.css";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function Home() {
   return (
@@ -117,6 +118,7 @@ export default function Home() {
             text="Guess the entire opening sequence with chess pieces, for both white and black!"
             title="Chessle"
           />
+          <Analytics />
         </div>
       </main>
     </div>
